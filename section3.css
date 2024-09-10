@@ -1,0 +1,121 @@
+#section3{
+    /* border: 2px solid black; */
+    height: 600px;
+}
+#div6{
+    /* border: 2px solid red; */
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#div6a{
+    /* border: 2px solid blue; */
+    height: 400px;
+    width: 350px;
+}
+
+#div6a aside{
+    /* border: 2px solid red; */
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 100px;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    background-color: red;
+    transform: rotate(270deg);
+    position: relative;
+    z-index: 1;
+}
+#div6a i{
+    position: absolute;
+    z-index: 2;
+    top: 790px;
+    left: 325px;
+    font-size: 4em;
+}
+#div6 h2{
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 25px;
+}
+#div6 p{
+    color: rgb(98, 100, 102);
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#div6b{
+    /* border: 2px solid blue; */
+    height: 400px;
+    width: 350px;
+}
+#div6b aside{
+    /* border: 2px solid red; */
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 100px;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    background-color: rgb(9, 0, 0);
+    transform: rotate(270deg);
+    position: relative;
+    z-index: 1;
+}
+#div6b i{
+    position: absolute;
+    z-index: 2;
+    top: 790px;
+    left: 680px;
+    font-size: 4em;
+}
+#div6c{
+    /* border: 2px solid blue; */
+    height: 400px;
+    width: 350px;
+}
+#div6c aside{
+    /* border: 2px solid red; */
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 100px;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    background-color: rgb(98, 96, 96);
+    transform: rotate(270deg);
+    position: relative;
+    z-index: 1;
+}
+#div6c i{
+    position: absolute;
+    z-index: 2;
+    top: 790px;
+    left: 1020px;
+    font-size: 4em;
+}
+#div6d{
+    /* border: 2px solid blue; */
+    height: 70px;
+    width: 550px;
+    margin-top: 20px;
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+#div6d button{
+    padding: 15px;
+    width: 250px;
+    border-radius: 6px;
+    background-color: rgb(201, 35, 85);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-left: 500px; */
+}
+#div6d button+button{
+ background-color: black;
+ margin-left: 50px;
+}

@@ -1,0 +1,32 @@
+#section2{
+    /* border: 2px solid; */
+    height: 400px;
+    background-color: #cce8f4;
+}
+#section2 img{
+    height: 400px;
+    margin-left: 160px;
+}
+#div5{
+    border: 2px solid black;
+    height: 150px;
+    width: 600px;
+    position: absolute;
+    margin-top: -265px;
+    margin-left: 400px;
+    background-color: black;
+    
+}
+#div5 h1{
+    color: white;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+#div5 p{
+    color: red;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}

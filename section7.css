@@ -1,0 +1,135 @@
+#section7{
+    /* border: 2px solid black; */
+    height: 700px;
+    background-color: rgb(19, 17, 17);
+    display: flex
+}
+#div10{
+    /* border: 2px solid red; */
+    height: 600px;
+    width: 700px;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+#div10 ol li{
+    /* border: 2px solid blue; */
+    height: 100px;
+    width: 700px;
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+}
+#div10 ol li div{
+    /* border: 2px solid green; */
+    height: 100px;
+    width: 100px;
+}
+#div10 ol li span{
+    height: 80px;
+    width: 700px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+#div10 ol li span p{
+    font-size: 17px;
+}
+#div10 ol li span a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#div10 ol li div aside{
+    /* border: 2px solid red; */
+    height: 70px;
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    background-color: #d52349;;
+    transform: rotate(180deg);
+    position: relative;
+    z-index: 1;
+}
+#div10 ol li div h4{
+    color: rgb(245, 241, 241);
+    position: absolute;
+    z-index: 2;
+    top: 3535px;
+    left: 175px;
+    font-size: large;
+}
+#div10 ol li+li div h4{
+    color: rgb(250, 247, 247);
+    position: absolute;
+    z-index: 2;
+    top: 3650px;
+    left: 175px;
+    font-size: large;
+}
+#div10 ol li+li+li div h4{
+    color: rgb(250, 247, 247);
+    position: absolute;
+    z-index: 2;
+    top: 3775px;
+    left: 175px;
+    font-size: large;
+}
+#div10 ol li+li+li+li div h4{
+    color: rgb(250, 247, 247);
+    position: absolute;
+    z-index: 2;
+    top: 3890px;
+    left: 175px;
+    font-size: large;
+}
+#div10 ol li+li+li+li+li div h4{
+    color: rgb(250, 247, 247);
+    position: absolute;
+    z-index: 2;
+    top: 4010px;
+    left: 175px;
+    font-size: large;
+}
+
+
+
+
+
+#section7 div h2{
+    font-size: 25px;
+    color: white;
+}
+#section7 div p{
+    color: #858484;
+    margin-top: 30px;
+    font-size: 18px;
+}
+#div11{
+    /* border: 2px solid red; */
+    height: 600px;
+    margin-left: 50px;
+    width: 400px;
+    margin-top: 60px;
+}
+#div11 img{
+    margin-top: 50px;
+}
+#div11 p a{
+    color: white;
+}
+#div11 p strong{color: white;}
+#div11 button{
+    padding: 15px;
+    width: 180px;
+    border-radius: 6px;
+    margin-top: 30px;
+    background-color: #d52349;
+}
+#div11 button a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bolder;
+}

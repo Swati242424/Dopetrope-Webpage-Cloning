@@ -1,0 +1,57 @@
+#section6{
+    /* border: 2px solid black; */
+    height: 720px;
+    background-color: #f7f7f7;
+}
+#section6 h2{
+    /* margin-top: 40px; */
+    margin-left: 200px;
+}
+#div9{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 650px;
+    margin-top: 40px;
+}
+#div9 div{
+    /* border: 2px solid blue; */
+    height: 600px;
+    width: 500px;
+    background-color: white;
+}
+#div9a{
+    margin-left: 180px;
+    margin-right: 60px;
+}
+#div9 div img{
+    width: 500px;
+}
+#div9 div h3{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+#div9 div p{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 18px;
+}
+#div9 div button{
+    padding: 15px;
+    width: 200px;
+    background-color: #d52349;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+#div9 div button+button{
+    background-color: black;
+
+}
+#div9 div button a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bolder;
+} 

@@ -1,0 +1,35 @@
+#section1{
+    border: 1px solid white;
+    height: 250px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#div3{
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 200px;
+    margin-top: 80px;
+    font-size: 22px;
+    margin-left: 600px;
+}
+#div4 ol{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid; */
+    height: 50px;
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 400px;
+    font-style: italic;
+}
+#div4 ol li{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+#div4 ol li:hover{
+    cursor: pointer;
+    background-color: rgb(203, 207, 210);
+    padding: 10px;
+}

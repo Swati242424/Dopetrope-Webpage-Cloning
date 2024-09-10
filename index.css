@@ -1,0 +1,95 @@
+@import url(./section1.css);
+@import url(./section2.css);
+@import url(./section3.css);
+@import url(./section4.css);
+@import url(./section5.css);
+@import url(./section6.css);
+@import url(./section7.css);
+@import url(./section8.css);
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#nav{
+    border: 2px solid ;
+    height: 60px;
+    display: flex;
+    background-color: rgba(55, 61, 73, 0.975);
+    position: fixed;
+
+}
+#nav h2{
+    padding-left: 20px;
+    padding-top: 15px;
+    color: white;
+}
+#div1{
+    border: 1px solid rgb(96, 93, 93);
+    height: 40px;
+    width: 25%;
+    margin-left: 20px;
+    margin-top: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#div1 ol{
+    /* border: 1px solid ; */
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+}
+#div1 ol li{
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+#div1 ol li:hover{
+    cursor: pointer;
+    background-color: rgb(143, 147, 150);
+    padding: 10px;
+}
+#nav span{
+    border: 2px solid rgb(54, 51, 51);
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+}
+#div2{
+    /* border: 2px solid black; */
+    height: 60px;
+    width: 30%;
+    margin-left: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#div2 ol{
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 380px;
+}
+#div2 ol li iframe{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+#div2 ol li{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid rgb(96, 93, 93);
+    padding: 10px;
+}
+#div2 ol li+li+li{background-color: orangered; border-radius: 5px;}
+#div2 ol li:hover{
+    cursor: pointer;
+    background-color: rgb(143, 147, 150);
+    padding: 15px;
+}
